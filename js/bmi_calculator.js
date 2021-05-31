@@ -10,7 +10,7 @@ const BMICalculator = {
         } else if (value < 25) {
             return {message: 'normal weight', color: 'green'}
         } else {
-            return {message: 'over weight', color: 'darkred'}
+            return {message: 'overweight', color: 'darkred'}
         }
     }
 }
